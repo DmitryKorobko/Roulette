@@ -1,0 +1,40 @@
+body {
+  background: #FFFACD;
+}
+
+#mainCanvas {
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 2px #000 solid;
+  background: #DEB887;
+}
+
+#mainCanvasPlace {
+  margin-top: 50px;
+  height: 375px;
+  width: 150px;
+  border: 2px #000 solid;
+  border-radius: 20px;
+  background: #708090;
+}
+
+.button {
+  height: 30px;
+  width: 70px;
+  background: #F4A460;
+  border: 2px #000 solid;
+  border-radius: 10px;
+}
+
+.activeButton {
+  background: #FFD700;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #00FFFF;
+}
+
+.images {
+  border-style: solid;
+  border-width: 2px;
+}

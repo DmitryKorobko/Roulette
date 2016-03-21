@@ -40,7 +40,7 @@ $(document).ready(function() {
 
   fabric.Image.fromURL(tempArr1[0], function(img) {
     var img0 = img.set({left: 0, top: 0});
-    fabric.Image.fromURL('img/r1.gif', function(img) {
+    fabric.Image.fromURL(tempArr1[1], function(img) {
       var img1 = img.set({left: 105, top: 0});
       fabric.Image.fromURL(tempArr1[2], function(img) {
         var img2 = img.set({left: 210, top: 0});
@@ -74,7 +74,7 @@ $(document).ready(function() {
 
   fabric.Image.fromURL(tempArr2[0], function(img) {
     var img0 = img.set({left: 0, top: 0});
-    fabric.Image.fromURL('img/r1.gif', function(img) {
+    fabric.Image.fromURL(tempArr2[1], function(img) {
       var img1 = img.set({left: 105, top: 0});
       fabric.Image.fromURL(tempArr2[2], function(img) {
         var img2 = img.set({left: 210, top: 0});
@@ -108,7 +108,7 @@ $(document).ready(function() {
 
   fabric.Image.fromURL(tempArr3[0], function(img) {
     var img0 = img.set({left: 0, top: 0});
-    fabric.Image.fromURL('img/r12.gif', function(img) {
+    fabric.Image.fromURL(tempArr3[1], function(img) {
       var img1 = img.set({left: 105, top: 0});
       fabric.Image.fromURL(tempArr3[2], function(img) {
         var img2 = img.set({left: 210, top: 0});
